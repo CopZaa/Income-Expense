@@ -1,0 +1,117 @@
+body {
+    background-color: #CCD1D1;
+}
+.name {
+    margin-top: 10px;
+    width: 100%;
+    color: #34495E;
+    text-align: center;
+    font-weight: bold;
+    font-family: Monospace;
+    font-size: 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    width: 50%;
+    margin: auto;
+}
+.enter-list {
+    grid-column: 1 / span 2;
+    height: 40px;
+    border: #D6DBDF 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: #85929E;
+    font-size: 30px;
+    font-family: Monospace;
+    font-weight: bold;
+}
+#button {
+    height: 35px;
+    border-radius: 15px;
+    border: transparent;
+    color: #85929E;
+    font-size: 25px;
+    font-family: Monospace;
+    font-weight: bold;
+}
+.income {
+    background-color: #ABEBC6;
+}
+.expense {
+    background-color: #F5B7B1;
+}
+.page {
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 50%;
+    background-color: #AEB6BF;
+    border-radius: 10px;
+    padding: 3px;
+}
+.history-text {
+    text-align: center;
+    color: #85929E;
+    font-size: 25px;
+    font-family: Monospace;
+    font-weight: bold;
+}
+.page-overflow {
+    margin: auto;
+    background-color: #85929E;
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.inAdd {
+    margin: auto;
+    padding: 3px;
+    width: 95%;
+    text-align: center;
+    color: #34495E;
+    font-size: 20px;
+    font-family: Monospace;
+    font-weight: bold;
+    background-color: #ABEBC6;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.exAdd {
+    margin: auto;
+    padding: 3px;
+    width: 95%;
+    text-align: center;
+    color: #34495E;
+    font-size: 20px;
+    font-family: Monospace;
+    font-weight: bold;
+    background-color: #F5B7B1;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.page-overflow::-webkit-scrollbar {
+    width: 20px;
+}
+.page-overflow::-webkit-scrollbar-thumb {
+    margin-right: 5px;
+    background-color: #85929E;
+    border-radius: 20px;
+}
+.page-overflow::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 10px 10px #AEB6BF;
+    border: solid 7px transparent;
+}
+#text {
+    margin-top: 10px;
+    width: 100%;
+    color: #34495E;
+    text-align: center;
+    font-weight: bold;
+    font-family: Monospace;
+    font-size: 80px;
+}
